@@ -1,0 +1,831 @@
+/*----------------------------------
+	
+	Theme Name: Coopsol
+	Theme URI: http://coopsol.com
+	Description: Coopsol es el resultado sinérgico de un grupo de empresas con capital Peruano que se identifican con el buen servicio y la calidad de los productos que ofrecen gracias a una sólida cultura corporativa y a un capital humano sobresaliente.
+	Author: Marcos Barrera
+	Author URI: https://www.facebook.com/marcosbarreralozano
+	Version: 2.0.0
+		------------------------------*/
+	a{
+		text-decoration:none !important;
+	}
+
+	/*Paddings
+	================================================== */
+	.ptop5 { padding-top: 5px !important;}
+	.ptop10 { padding-top: 10px !important;}
+	.ptop15 { padding-top: 15px !important;}
+	.ptop20 { padding-top: 20px !important;}
+	.ptop30 { padding-top: 30px !important;}
+	.ptop40 { padding-top: 40px !important;}
+	.ptop50 { padding-top: 50px !important;}
+	.ptop60 { padding-top: 60px !important;}
+	.ptop70 { padding-top: 70px !important;}
+	.ptop80 { padding-top: 80px !important;}
+	.ptop90 { padding-top: 90px !important;}	
+	.ptop100 { padding-top: 100px !important;}
+	
+	.pbottom10 { padding-bottom: 10px !important;}
+	.pbottom15 { padding-bottom: 15px !important;}
+	.pbottom20 { padding-bottom: 20px !important;}
+	.pbottom50 { padding-bottom: 50px !important;}
+	.pbottom70 { padding-bottom: 70px !important;}
+	.pbottom80 { padding-bottom: 80px !important;}
+	.pbottom90 { padding-bottom: 90px !important;}
+	
+	.pright0 { padding-right: 0 !important;}
+	.pright25 {padding-right: 25px !important;}
+	.pright30 { padding-right: 30px !important;}
+	
+	.pleft0 { padding-left: 0 !important;}
+
+	/* Margins 
+	================================================== */
+	.mauto { margin: 0 auto !important;}
+	.m0 { margin: 0 !important;}
+	.mtop5 { margin-top: 5px !important;}
+	.mtop20 { margin-top: 20px !important;}
+	.mtop25 { margin-top: 25px !important;}
+	.mtop30 { margin-top: 30px !important;}
+	.mtop40 { margin-top: 40px !important;}
+	.mtop50 { margin-top: 50px !important;}
+	.mtop70 { margin-top: 70px !important;}
+	.mtop80 { margin-top: 80px !important;}
+	.mtop100 { margin-top: 100px !important;}
+	.mtop106 { margin-top: 106px !important;}
+	.mtop130 { margin-top: 130px !important;}
+	.mbottom0 { margin-bottom: 0 !important;}
+	.mbottom5 { margin-bottom: 5px !important;}
+	.mbottom10 { margin-bottom: 10px!important;}
+	.mbottom15 { margin-bottom: 15px!important;}
+	.mbottom20 { margin-bottom: 20px!important;}
+	.mbottom25 { margin-bottom: 25px!important;}
+	.mbottom30 { margin-bottom: 30px!important;}
+	.mbottom35 { margin-bottom: 35px!important;}
+	.mbottom40 { margin-bottom: 40px!important;}
+	.mbottom50 { margin-bottom: 50px!important;}
+	.mbottom60 { margin-bottom: 60px!important;}
+	.mbottom70 { margin-bottom: 70px!important;}
+	.mbottom80 { margin-bottom: 80px!important;}
+	.mbottom90 { margin-bottom: 90px!important;}
+	.mbottom100 { margin-bottom: 100px!important;}
+	.mleft5 { margin-left: 5px!important;}
+	.mleft10 { margin-left: 10px!important;}
+	.mleft15 { margin-left: 15px!important;}
+	.mleft20 { margin-left: 20px!important;}
+	.mleft30 { margin-left: 30px!important;}
+	.mleft50 { margin-left: 50px!important;}
+	.mleft60 { margin-left: 60px!important;}
+	.mleft65 { margin-left: 65px!important;}
+	.mleft80 { margin-left: 80px!important;}
+	.mleft85 { margin-left: 85px!important;}
+	.mleft90 { margin-left: 90px!important;}
+	.mleft160 { margin-left: 160px!important;}
+	.mleft240 { margin-left: 240px!important;}
+	.mright5 { margin-right: 5px!important;}
+	.mright10 { margin-right: 10px!important;}
+	.mright15 {margin-right: 15px!important;}
+	.mright25 { margin-right: 25px!important;}
+	.mleft230 { margin-left: 230px!important;}
+	.mright15 { margin-right: 15px !important;}			
+	
+	
+	/* #TOPBAR
+	================================================== */
+	.top-bar{display:none;}
+	.container-coopsol{
+		width:96.55%;
+		position: relative;
+		margin: 0 auto;
+	}
+	
+	.fleft{
+		float:left;
+	}
+	.enter-top{background:url(../images/top/enter.svg) no-repeat top center;}
+	.user-top{background:url(../images/top/user.svg) no-repeat top center;}
+	.map-top{background:url(../images/top/map.svg) no-repeat top center;}
+	.email-top{background:url(../images/top/email.svg) no-repeat top center;}
+	.cloud-top{background:url(../images/top/cloud.svg) no-repeat top center;}
+	.enter-top:hover{background:url(../images/top/enter-hover.svg) no-repeat top center;}
+	.user-top:hover{background:url(https://www.grupocoopsol.com/images/top/user-hover.svg) no-repeat top center;}
+	.map-top:hover{background:url(../images/top/map-hover.svg) no-repeat top center;}
+	.email-top:hover{background:url(../images/top/email-hover.svg) no-repeat top center;}
+	.cloud-top:hover{background:url(../images/top/cloud-hover.svg) no-repeat top center;}
+	.body-coopsol{background:url(../images/bg-main.svg);}
+	
+	.top-bar .socailfollow a, .our-team .socailfollow a {
+		padding: 5px 5px 2px 5px!important;
+		margin: 1px 4px !important;
+		background: #fff !important;
+		border: 1px solid #f39423 !important;
+	}
+	.top-bar .socailfollow a:hover, .our-team .socailfollow a:hover {
+		border: 1px solid #a5a7aa !important;
+	
+	}
+	.top-bar .socailfollow i, .our-team .socailfollow i {
+		color: #f39423 !important;
+	}
+	.top-bar .socailfollow i:hover, .our-team .socailfollow i:hover {
+		color: #a5a7aa !important;
+	}
+
+	/* HEADER
+	================================================== */
+	#header, #hero, .row, .bg-white, .vertical-space3{background:#FFF;}
+	.bg-grey{background:#f0f0f0}
+	.bg-blue{background: #384852;}
+	.bg-transparent{background: rgba(255,255,255,0.6) !important;}
+	#header h6 a, .top-bar h6 a, .top-inf h6 a  { font-size:12px; font-family: 'Raleway', sans-serif;  color:#565556; padding: 30px 20px 10px 20px;font-weight:600; letter-spacing: 0.5px;}
+	#header h6 a:hover, .top-bar h6 a:hover, .top-inf h6 a:hover  { color:#ffca05; }
+
+	/* MOVIL MENU
+	================================================== */
+	
+    .container-nav {
+		display:none;
+		z-index:10;
+        position: fixed;
+        height: 100%;
+        width: 30px;
+        left: 0;
+        -webkit-transition:  left 0.4s ease-in-out;
+        -moz-transition:  left 0.4s ease-in-out;
+        -ms-transition:  left 0.4s ease-in-out;
+        -o-transition:  left 0.4s ease-in-out;
+        transition:  left 0.4s ease-in-out;
+    }
+    
+    .container-nav.open-sidebar {
+        left: 240px;
+    }
+    
+    #sidebar {
+        position: absolute;
+        left: -240px;
+        background: #f05c22;
+        width: 240px;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    #sidebar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    #sidebar ul li {
+        margin: 0;
+    }
+    #sidebar ul li a {
+        padding: 15px 20px;
+        font-size: 14px;
+        font-weight: 600;
+		color:#fff;
+        font-family: 'Raleway', sans-serif;
+		letter-spacing: 0.7px;
+        text-decoration: none;
+        display: block;
+        border-bottom: 1px solid #cf1f25;
+        -webkit-transition:  background 0.3s ease-in-out;
+        -moz-transition:  background 0.3s ease-in-out;
+        -ms-transition:  background 0.3s ease-in-out;
+        -o-transition:  background 0.3s ease-in-out;
+        transition:  background 0.3s ease-in-out;
+    }
+    #sidebar ul li:hover a {
+        background: #cf1f25;
+    }
+    .main-content {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        position: relative;
+    }
+    .main-content .content{
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+		padding-left: 60px;
+		width: 100%;
+    }
+    .main-content .content h1{
+        font-weight: 100;
+    }
+    .main-content .content p{
+        width: 100%;
+        line-height: 160%;
+    }
+    .main-content #sidebar-toggle {
+        background: #f05c22;
+        display: block;
+        position: relative;
+        padding: 12px 9px;
+        float: left;
+		top: 8px;
+		left: 5px;		
+	
+		border-radius: 100% 100% 100% 100%;
+		-Moz-border-radius: 100% 100% 100% 100%;
+		-Webkit-border-radius: 100% 100% 100% 100%;
+
+    }
+    .main-content #sidebar-toggle .bar{
+         display: block;
+        width: 18px;
+        margin-bottom: 3px;
+        height: 2px;
+        background-color: #fff;
+        border-radius: 1px;   
+    }
+    .main-content #sidebar-toggle .bar:last-child{
+         margin-bottom: 0;   
+    }
+	
+	
+	/* #NAV - MENU
+	================================================== */
+
+	.nav-wrap2.darknavi {
+		background: #f7941d;
+		border-top: 0px solid #202020;
+		border-bottom: 5px solid #f25e22;
+	}
+	.nav-wrap2 #nav > li:first-child > a {
+		border-left: 0px solid #eee;
+	}
+	.nav-wrap2 #nav > li > a {
+		border-right: 0px solid #eee;
+	}
+	.nav-wrap2.darknavi #nav > li > a {
+		color: #2f2b29;
+		background: #f7941d;
+		font-size:12px;
+		font-family: 'Raleway', sans-serif;
+		letter-spacing: 0.7px;
+	}
+	.nav-wrap2.mn4 #nav > li > a {
+		padding: 8px 10px;
+		
+	}
+	.nav-wrap2.darknavi #nav > li > a:hover, .nav-wrap2.darknavi #nav > li:hover > a {
+		background-color: #f7941d !important;
+		color:#FFf;
+	}
+	.nav-wrap2 #nav > li.current a {
+		color: #fff !important;
+	}
+
+
+	/* #SOCIAL MEDIA MENU
+	================================================== */
+	.social-menu .socailfollow a {
+		padding: 3px 10px !important; 
+	}
+	.social-menu{
+		display:block;
+		width:100%;
+		position:absolute;
+		z-index:5;
+		border-top: 2px solid #f25e22;
+		
+	}
+	.back-social-menu{
+		background:#f25e22;
+		color:#fff;
+	}
+	.social-menu .socailfollow a i{
+		font-size: 13px !important; 
+	}
+	.social-menu .socailfollow a:hover i{
+		color:#f7941d;
+	}
+
+
+	/* #SLIDE HOME
+	================================================== */
+	.ls-layer>.btn-slide-coopsol{
+		width:auto!important;
+		height:auto!important;
+		background:none!important;
+		color:#fff !important;
+		border:2px solid #fff !important;
+		font-weight:400 !important;
+		font-size:15px !important;
+		padding: 15px 40px !important;
+	}
+	.ls-layer>.btn-slide-coopsol a{
+		color:#f15932 !important;
+		font-size:16px !important;
+		font-weight:600!important;
+	}
+
+	/* #TITLE, DESCRIPTION
+	================================================== */
+
+	.mex-title {
+		border-bottom: 1px solid #eaeaea!important;
+		display: inline-block;
+		padding: 0px 40px 20px 40px!important;
+		margin-bottom: 20px;
+		font-weight: 200 !important;
+		letter-spacing: 0.005!important;
+		font-family: 'Raleway', sans-serif;
+		color:#444242!important; /* 90 */
+		font-size:30px !important;
+	}
+	.desc-title{
+		font-family: 'Raleway', sans-serif;
+		color:#504f51!important; /* 85 */
+		font-size:14px !important;
+		
+	}
+
+	/* #ICONOS CARROUCEL
+	================================================== */
+	.jcarousel-next, .jcarousel-prev {
+		background-color: #fff !important;
+		width: 30px !important;
+		height: 30px !important;
+		padding: 5px;
+		border-radius: 0 2px 2px 0;
+		position: absolute;
+		right: 0;
+		top: 100px !important;
+		cursor: pointer;
+		-webkit-transition: all 0.2s ease;
+		-moz-transition: all 0.2s ease;
+		-ms-transition: all 0.2s ease;
+		-o-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+		border:1px solid #f39423;
+	}
+	.jcarousel-prev {
+		right: 33px!important;
+		background:url(../images/carroucel.svg) no-repeat center center;
+		background-size:20px 20px;
+	}
+	.jcarousel-next {
+		background:url(../images/carroucel.svg) no-repeat center center;
+		background-size:20px 20px;
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		transform: rotate(180deg);		
+	}
+	
+	
+	
+	/* #CARROUCEL
+	================================================== */
+
+	h4.subtitle {
+		border-bottom: 1px solid #e4744f !important;
+		font-family: 'Raleway', sans-serif !important;
+		font-weight: 900;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		line-height: 2;
+		padding-bottom: 8px;
+		font-size: 13px;
+		color: #54606b;
+		clear: both;
+		margin: 39px 0 11px 0!important;
+	}
+	.title-carrou{
+		font-family: 'Raleway', sans-serif !important;
+		font-weight:800 !important;
+		font-size:15px;
+		padding: 0 15px;
+		
+	}
+	.consu{color:#0094d5;}
+	.emple{color:#7d2990;}
+	.miner{color:#00652e;}
+	.proce{color:#ba1319;}
+	.depor{color:#f7931d;}
+	
+	.related-works p {
+		text-transform: none !important;
+		color:#424040!important;
+		font-size: 13px!important;
+		font-family: 'Raleway', sans-serif;
+		margin:0 !important;
+		padding: 0 15px;
+	}
+	.work-image{
+		width:100%;
+		padding:0 0 10px 0;
+	}
+	.img-work{
+		width:55%;
+		margin:0 auto;
+	}
+	.img-work img{
+		width:10px;
+	}
+	.related-works a {
+		font-family: 'Raleway', sans-serif !important;
+		color:#f15932!important;
+		font-size: 13px;
+		font-weight:500;	
+	}
+	
+	.owl-nav{
+		width:65px;
+		position:absolute;
+		right:10px;
+		top:-100px;
+	}
+	.owl-prev, .owl-next{
+		width: 30px !important;
+		height: 30px !important;
+		float:left;
+		border: 1px solid #f39423 !important;
+		margin: 30px 0 0 0;
+	}
+	.owl-prev{
+		background:url(../images/carroucel.svg) no-repeat center center;
+		background-size:20px 20px;
+	
+	}
+	.owl-next{
+		margin-right:5px !important;
+		background:url(../images/carroucel.svg) no-repeat center center;
+		background-size:20px 20px;
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		transform: rotate(180deg);		
+	
+	}
+	
+
+	/* #MITAD LOGO HOME
+	================================================== */
+
+	
+	.coopsoll-home-about{
+		font-family: 'Raleway', sans-serif;		
+	}
+	.coopsoll-home-about h3{
+		font-size: 30px !important;
+		color: #5b5b5e!important;
+	}
+	.coopsoll-home-about h3 strong{
+		font-weight:800;
+	}
+	.img-home-about img{
+		border-bottom: 1px solid #c3c5ca!important;
+	}
+	h3.slight{
+		color: #9c9b9f !important;
+		font-size:27px !important;
+	}
+	.coopsoll-home-about h6{
+		color: #424040!important;
+		font-size: 14px!important;
+	}
+	.coopsoll-home-about a{
+		color: #f15932 !important;
+		font-size: 14px;
+		font-weight: 500;
+	
+	}
+
+	/* #CARROUCEL CLIENTS
+	================================================== */
+	
+	.our-clients-wrap .jcarousel-next, .our-clients-wrap .jcarousel-prev{
+		border-radius: 0px !important;
+		border:1px solid #f39423 !important;
+		width: 30px	!important;
+		height: 30px !important;
+	}
+
+	/* #FOOTER
+	================================================== */
+	
+	#footer {
+		width: 100%;
+		padding:0 !important;
+		border-top: 0px solid #222 !important;
+	}
+	 .footbot{
+		background:#44474e !important;
+	}
+	.footer-navi, .socailfollow,.socailfollow a{
+		font-family: 'Raleway', sans-serif !important;	
+		font-size:12px !important;	
+		color: #9B9B9B;
+	}
+	.footer-navi a:hover,.socailfollow a:hover{
+		color:#ccc !important;
+		text-decoration: underline !important;
+	}
+
+	/* #SCROLL TOP
+	================================================== */
+	#scroll-top a {
+		width: 36px !important;
+		height: 36px !important;
+		padding: 6px 8px 9px !important;
+		border-radius: 0px !important;
+		position: fixed;
+		bottom: 48px;
+		right: 32px;
+		display: none;
+		opacity: 9.89 !important;
+		filter: alpha(opacity=89);
+		z-index: 499841;
+		background: #d8dade url(../images/carroucel.svg) no-repeat center center !important;
+		background-size:30px 30px !important;
+		border:2px solid #f39423;
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		transform: rotate(90deg);		
+	}
+	#scroll-top a {
+		background: #fff url(../images/carroucel.svg) no-repeat center center !important;
+	
+	}
+
+	/* #HEADER FULL
+	================================================== */
+	.extrabgsec {
+		padding: 20px;
+		background: rgba(255,255,255,0.6);
+		font-family: 'Raleway', sans-serif;
+		color:#444242;
+		text-align:right;
+	}
+	.extrabgsec b{
+		font-weight:600;
+	}
+	
+	/* #NOSOTROS
+	================================================== */
+	.about-one-title, .about-two-title, .description-team{
+		font-family: 'Raleway', sans-serif !important;
+	
+	}
+	.about-one-title h1, .about-one-title h2, .about-one-title h3, .about-one-title h4, .about-one-title h5, .about-one-title h6{
+		color:#ee9320 !important;
+		font-weight:600 !important;
+		
+	}
+	.about-one-title p{
+		font-size:13px !important;
+		color:#FFF !important;
+	}
+	.about-two-title p {
+		font-size:13px !important;	
+	}
+	.description-team{
+		width:200px;
+		margin: 0 auto;
+	}
+	.zoomex{
+		z-index:3;
+	}
+	.description-team h5{
+		font-size:20px !important;	
+		text-align:center;
+		color:#fff;
+		padding:10px 0 0 0;		
+		line-height: 28px !important;	
+		margin: 0px !important;	
+	}
+	.description-team h4{
+		font-size:14px !important;	
+		text-align:center;
+		color:#edeef0;
+		letter-spacing: 0.4px;
+		padding:0px 0 0 0;		
+		line-height: 12px !important;	
+		margin: 0px !important;	
+	}
+	.description-team p{
+		color:#fff;
+		font-size:12px !important;
+		padding:10px 0 0 0;	
+		text-align:center;	
+		margin: 14px !important;	
+	}
+	.description-team a{		
+		color:#fff !important;
+		font-size:12px !important;
+	}
+	.description-team a:hover{		
+		color:#f25e22 !important;
+	}
+	.description-team-name{
+		background:rgba(0,0,0,0.40);
+		position: absolute;
+		z-index:2;
+		bottom: 0;
+		width: 100%;
+		padding:10px 10px;
+	}
+	.description-team-name h1{
+		color:#fff;
+		font-size:20px !important;	
+		line-height: 20px !important;	
+		margin-bottom: 8px !important;		
+	}
+	.description-team-name h2{
+		color:#edeef0;
+		letter-spacing: 0.4px;
+		font-size:13px !important;		
+		line-height: 10px !important;	
+		margin-bottom: 0px !important;	
+	}
+	
+	/* #TRABAJA CON NOSOTROS
+	================================================== */
+		
+	.coopsoll-home-trabaja{
+		font-family: 'Raleway', sans-serif;
+	}
+	.coopsoll-home-trabaja h3{
+		font-size: 30px !important;
+		color: #5b5b5e!important;
+	}
+	.coopsoll-home-trabaja h3 strong{
+		font-weight:800;
+	}
+	.img-home-trabaja img{
+		border-bottom: 0px solid #c3c5ca!important;
+	}
+	h3.slight{
+		color: #9c9b9f !important;
+		font-size:27px !important;
+	}
+	.cdr-img-trabaja{
+		width:50%;
+		margin:0 auto;
+	}
+	.img-trabaja {
+		width:50%;
+		text-align:center;
+		float:left;
+	}
+	.img-trabaja-coopsol{
+		margin: 0 auto;	
+	}
+	.img-trabaja-coopsol img{
+		width:180px;
+	}
+	.coopsoll-home-trabaja h6{
+		color: #424040!important;
+		font-size: 14px!important;
+	}
+	.coopsoll-home-trabaja h6 b{
+		font-weight:800;
+	}
+	.coopsoll-home-trabaja a{
+		color: #f15932 !important;
+		font-size: 14px;
+		font-weight: 500;
+	
+	}
+	
+	/* #SERVICIOS
+	================================================== */
+	.icon-box6{
+		font-family: 'Raleway', sans-serif !important;			
+		border: 1px solid #e5e5e5 !important;	
+		border-radius: 0px !important;	
+		padding: 100px 20px 28px !important;	
+		text-shadow: 0 0 0 0 !important;	
+		margin: 70px 0 20px !important;	
+	}
+	.icon-box6>.img_serv{
+		width:100%;
+		position: absolute;
+		top: -62px !important;	
+		left: 0% !important;	
+		margin:0px !important;	
+	}
+	.icon-box6 img{
+		background:#fff;	
+	}
+	.icon-box6 p, .icon-box6 a{	
+		font-size:13px !important;	
+	
+	}
+	.icon-box6 p, .icon-box6 a:hover{
+		color:#444242 !important;
+	}
+	.icon-box6 a{
+		cursor:pointer !important;
+		font-weight:600 !important;
+		color:#f15932!important
+	}
+	
+	
+	/* #SERVICIOS
+	================================================== */
+	.contact-informaction{		
+		font-family: 'Raleway', sans-serif;
+	}
+	.contact-informaction h4{	
+		padding:0 0 15px 0 !important;
+	}
+	.contact-informaction p{
+		font-size:13px !important;
+		color:#504f51 !important;
+	}
+	.contact-informaction p a{
+		color:#504f51 !important;
+	}
+	.contact-informaction p a:hover{
+		color:#f7941d !important;
+	}
+	
+	
+	/* #FORMULARIO
+	================================================== */
+	
+	.bottom-coopsol{
+		border-color: #f7941d;
+		color: #f7941d;
+		cursor:pointer !important;
+	}
+	
+	
+	/* #MAPA
+	================================================== */
+	#google_map{
+		width:100%;
+		height:400px;
+		z-index:0;
+		position:relative;	
+		display: block;	
+	}
+	.map-tooltip{
+		font-family: 'Raleway', sans-serif !important;	
+	}
+	.map-tooltip h6{
+		color:#f15c22;
+		font-weight:600;
+	}
+	.map-tooltip p{
+		font-size:13px;
+	}	
+	
+	
+	/* #RESPONSIVE
+	================================================== */
+
+	@media only screen and (max-width: 767px) { 
+		.top-bar .socailfollow, .top-bar .socailfollow.lftflot{
+			padding: 0 0 0 41%;
+		}
+		.top-bar .socailfollow a, .top-bar .socailfollow.lftflot a, .top-links p, .top-links img{
+			float:left !important;
+		}
+		.container-coopsol{
+			width: 85%;
+		}
+		.coopsoll-home-about{
+			width:100% !important;	
+		}
+		.container-nav {
+			display:block;
+		}
+		.logo{
+			width:100% !important;	
+		}
+		.top-bar{background:#fff; display:block;}
+		.social-menu{display:none;}	
+		.cdr-img-trabaja{
+			width:100%;
+		}
+		.img-trabaja {
+			width:100%;
+		}
+		#header .alignright, top-inf.alignright{
+			display:none;
+		}
+		.logo{
+			padding-top: 8px !important;
+		}
+		.our-clients-wrap .jcarousel-next, .our-clients-wrap .jcarousel-prev{
+			left: 50% !important;
+		}
+	}
+	@media only screen and (max-width: 479px) {
+		.our-clients-wrap .jcarousel-next, .our-clients-wrap .jcarousel-prev{
+			left: 57% !important;
+		}
+		.our-clients-wrap{
+			width:100%;
+		}
+	}
+	
